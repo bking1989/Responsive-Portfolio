@@ -30,6 +30,8 @@ header div#wrapper{
     width: 960px;
 }
 
+/* Header Title Code */
+
 header div#wrapper h1{
     background-color: #4aaaa5;
     color: #ffffff;
@@ -42,6 +44,8 @@ header div#wrapper h1{
     line-height: 90px;
     padding: 0px 1.5em;
 }
+
+/* Navigation Bar Code */
 
 header div#wrapper ul{
     display: block;
