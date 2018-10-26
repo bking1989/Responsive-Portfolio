@@ -111,7 +111,7 @@ header div#wrapper ul li a:hover:after{
     opacity: 1;
 }
 
-/* Section Code */
+/* Middle Section Code */
 
 div#middle{
     flex: 1 0 auto!important;
@@ -129,11 +129,6 @@ div#middle section, div#middle section.portfolio, div#middle section.contact{
     margin: 0 auto;
     min-height: 300px;
     width: 960px;
-}
-
-div#middle section.portfolio{
-    display: flex!important;
-    flex-wrap: wrap;
 }
 
 div#middle section h1, div#middle section.contact h1{
@@ -177,6 +172,8 @@ div#middle section p{
     margin: 30px;
 }
 
+/* Contact Page Code */
+
 div#middle section.contact h2{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -218,6 +215,13 @@ div#middle section.contact div#button a{
     text-align: center;
     text-decoration: none;
     width: 100%;
+}
+
+/* Portfolio Page Code */
+
+div#middle section.portfolio{
+    display: flex!important;
+    flex-wrap: wrap;
 }
 
 div#middle section.portfolio div#wrapper{
